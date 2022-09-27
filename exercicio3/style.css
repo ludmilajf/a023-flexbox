@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+body{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
 main{
   display: flex;
   gap: 20px;
@@ -10,6 +17,7 @@ main{
   width: 800px;
   margin: 0 auto;
   background-color: orange;
+  justify-content: space-evenly;
 }
 
 section{
@@ -20,19 +28,36 @@ section{
   justify-content: center;
   align-items: center;
   flex-basis: 80px;
+
 }
 
 #section-1{
+  display: flex;
+  order: 1;
+  flex-grow: 1;
 }
 
 #section-2{
+  display: flex;
+  order: 2;
+  flex-grow: 2;
 }
 
 #section-3{
+  display: flex;
+  order: 3;
+  flex-grow: 3;
 }
 
 #section-4{
+  display: flex;
+  order: 4;
+  flex-basis: 200px;
+  flex-grow: 1;
 }
 
 #section-5{
+  display: flex;
+  order: 0;
+  flex-grow: 1;
 }
